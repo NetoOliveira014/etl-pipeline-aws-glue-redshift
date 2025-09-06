@@ -11,8 +11,6 @@ Além disso, consultas interativas podem ser feitas diretamente no S3 utilizando
 
 O fluxo segue conforme o diagrama:
 
-![Diagrama de Arquitetura](/docs/architecture_diagram.png)
-
 **Produtor → CSV**: Fonte de dados externa que gera arquivos CSV.
 
 **AWS Lambda (Consumidor)**: Função responsável por ingerir e depositar os arquivos no bucket de dados brutos no S3.
